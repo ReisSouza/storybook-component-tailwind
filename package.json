@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export && yarn build-storybook",
     "start": "next start",
     "lint": "eslint --cache",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -c .storybook -o out/storybook-static"
   },
   "resolutions": {
     "webpack": "^5"
