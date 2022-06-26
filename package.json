@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint --cache",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o out/storybook-static"
+    "build-storybook": "build-storybook -c .storybook -o dist/storybook-static"
   },
   "resolutions": {
     "webpack": "^5"

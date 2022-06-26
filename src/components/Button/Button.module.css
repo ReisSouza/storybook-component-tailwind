@@ -1,18 +1,21 @@
 .Button {
-  @apply rounded-lg
+  @apply rounded-lg;
 }
-.Small{
-  @apply px-4 py-1 text-sm font-bold
+.Small {
+  @apply px-4 py-1 text-sm font-bold;
 }
-.Medium{
-  @apply px-6 py-3
+.Medium {
+  @apply px-6 py-3;
 }
-.Large{
-  @apply px-8 py-4
+.Large {
+  @apply px-8 py-4;
 }
-.Primary{
-  @apply bg-blue-600 text-white hover:brightness-90 transition-all duration-200
+.Primary {
+  @apply bg-blue-600 text-white hover:brightness-90 transition-all duration-200;
 }
-.Secondary{}
-.Rounded{}
-.revert{}
+.Secondary {
+}
+.Rounded {
+}
+.revert {
+}
