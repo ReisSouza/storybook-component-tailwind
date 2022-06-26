@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import MainLayout from '@/components/Layout/MainLayout';
-import Button from '@/components/Button';
+import { MenuToggle } from '@/components';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <title>Fill Boilerplate</title>
       </Head>
       <div className="container px-4 md:px-8">
-        <Button as="a">test</Button>
+        <MenuToggle onPress={() => {}} />
       </div>
     </MainLayout>
   );

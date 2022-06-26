@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 import './button.css';
 
 interface ButtonProps {
@@ -9,7 +9,7 @@ interface ButtonProps {
   /**
    * What background color to use
    */
-  backgroundColor?: string;
+  backgroundColor?: CSSProperties['backgroundColor'];
   /**
    * How large should the button be?
    */
@@ -29,6 +29,7 @@ interface ButtonProps {
  */
 export const Button = ({ primary = false, size = 'medium', backgroundColor, label, ...props }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+
   return (
     <button
       type="button"
